@@ -1,0 +1,33 @@
+# User Constraint File for BlackIcei Mx Acorn Atom (Ice40Atom)
+
+# Onboard 25MHz oscillator
+set_io clk_25mhz 60
+
+# Keyboard - Matches Digilent PmodPS/2 
+set_io ps2_clk           23 #
+set_io ps2_data          19 # 
+
+# VGA Output - Matches Digilent PmodVGA
+set_io red[3]           139 # 
+set_io red[2]           138 # 
+set_io red[1]           142 #
+set_io red[0]           141 # 
+
+set_io green[3]         4 # 
+set_io green[2]         3 # 
+set_io green[1]         144 # 
+set_io green[0]         143 # 
+
+set_io blue[3]          135 # 
+set_io blue[2]          134 # 
+set_io blue[1]          137 # 
+set_io blue[0]          136 # 
+
+set_io hsync             1 # 
+set_io vsync             2 # 
+
+set_io led[0] 52
+set_io led[1] 55
+set_io led[2] 56
+
+set_io ear 22
